@@ -1,0 +1,1 @@
+{"request": [{"role": "user", "content": [{"type": "text", "text": "Вопрос"}, { "type": "image", "image": "Base64 код картинки"}]}]}

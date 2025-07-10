@@ -1,0 +1,3 @@
+input_size: 23
+hidden_size: 128
+output_size: 1

@@ -1,0 +1,12 @@
+defaults:
+  - data_loading: data_loading
+  - model: model
+  - training: training
+  # - inference: inference
+  - artifacts: artifacts
+  - logging: logging
+  - callbacks: callbacks
+
+hydra:
+  run:
+    dir: ./.logs/outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}

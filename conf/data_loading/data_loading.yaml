@@ -1,0 +1,3 @@
+data_getter_fn_name: "apimoex"
+data_getter_kwargs:
+  interval: "1d"

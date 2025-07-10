@@ -1,0 +1,10 @@
+callbacks_names:
+  - "learning_rate_monitor"
+  # - model_checkpoint
+  - "rich_model_summary"
+  - "device_stats_monitor"
+  - "rich_progress_bar"
+
+model_checkpoint:
+  every_n_train_steps: null
+  every_n_epochs: 1

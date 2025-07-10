@@ -1,0 +1,30 @@
+[project]
+name = "marketoracle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.20.0.post0",
+    "aiohttp>=3.11.18",
+    "catboost>=1.2.8",
+    "dotenv>=0.9.9",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "kaleido==0.2.1",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "plotly>=6.1.2",
+    "pytorch-lightning>=2.5.1.post0",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
+    "tinkoff-investments>=0.2.0b114",
+    "torch>=2.7.0",
+    "wandb>=0.19.11",
+    "yandex-cloud-ml-sdk>=0.3.0",
+]
+
+[tool.setuptools]
+packages = ["market_oracle_lib"]
